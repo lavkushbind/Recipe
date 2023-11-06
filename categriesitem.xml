@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="186dp"
+    android:layout_height="wrap_content">
+
+    <!-- Image view for the post's image -->
+    <ImageView
+        android:id="@+id/image_catgries"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- TextView for the post title -->
+    <TextView
+        android:id="@+id/text_catgries"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="iuhfkjfskffjsvjskdulsjhds fuefiyydthbjhfhfshfsfdfkshbfsshgssdksjdhsdkukjhiyuhweh"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_catgries" />
+
+    <!-- Add more TextViews or Views for other post details if needed -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
